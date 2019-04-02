@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--bootstrap Enviroment-->
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	    <!-- Bootstrap -->
+	    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	
+	    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+	    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+	    <!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+	    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+	    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<title>bralaya'Home</title>
+		<!--my own js,css-->
+		<script src="/ghostyBlog/js/ghostyBlogAutoRobot.js"></script>
+		<link rel="stylesheet" type="text/css" href="/ghostyBlog/css/ghostyBlogAutoRobot.css"/>
+	</head>
+	<body style="background-color: #DCDCDC;">
+		
+		<!--最外层包裹容器	级别1-->
+		<div id="outestContainer" class="row">
+			<!--左边空白容器	级别2-->
+			<div id="leftBlankContainer" class="col-md-1  hidden-sm hidden-xs">
+				
+			</div>
+			
+			<!--中间内容容器	级别2-->
+			<div id="middleContentContainer" class="col-md-10 col-sm-12 col-xs-12">
+				<!--中间内容容器的最外层	导航栏	级别3-->
+				<div id="mCoutestNavigationBar" >
+					<!--bootstrap 导航栏 nav容器-->
+					<nav id="xxxxx" class="navbar navbar-default" role="navigation" >
+						<!--bootstrap 导航栏 二级包裹容器-->
+						<div class="container-fluid"> 
+							
+							<!--bootstrap 导航栏 内容层	pc宽度时显示的div-->
+							<div id="navRealContentContainer" class="navbar-header" >
+								<!--pc宽时显示的标题和个性签名-->
+								<div id="pcNavBarEdition">
+									<br>
+									<h1 class="container-fluid" >燃的个人站点</h1>
+									<div class="container-fluid">
+										<h4 class="">不管到哪，冷风总是相随，而这风，终将幻化成雨。</h4>
+									</div>
+								</div>
+								
+								<br>
+								<!--手机屏宽显示的标题-->
+								<div id="phoneNavBarEdition">
+									
+									<a id="head2" class="navbar-brand" >平衡之剑</a>
+									<span style="">
+										<!--汉堡按钮-->
+										<button type="button" class="navbar-toggle" data-toggle="collapse"
+												data-target="#example-navbar-collapse">
+											<span class="sr-only">切换导航</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</span>
+								</div>
+							</div>
+							
+							<!--bootstrap 导航栏 内容层	导航栏元素层-->
+							<div class="collapse navbar-collapse" id="example-navbar-collapse">
+								
+								<ul id="navbarElement" class="nav navbar-nav">
+									<li id="navbarElementValue1"><a href="/ghostyBlog/home.html">所有文章</a></li>
+									<li id="navbarElementValue2"><a href="/ghostyBlog/ContactMe.html">联系我</a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</nav>
+					
+					
+					
+				</div>
+				
+				<!--中间内容容器	的	最外层	内容页	容器	级别3	-->
+				<div id="mCoutestContentContainer" class="container-fluid">
+					<!--左边内容页容器
+						：这样的好处是，到时里面的内容还可以和最外层容器有间距
+					-->
+					<div id="leftContentContainer" class="col-md-9 col-sm-9 col-xs-12">
+						<!--左边内容存放处-->
+						<div id="leftContent" >
+							<br>
+							<!-- 页面切断上部分 -->
+							
+							<!-- 页面切断下部分 -->
+						
+						</div>
+						<!--下面开始是别的内容-->
+							<hr style="border:2px solid whitesmoke;">
+							
+							
+					</div>
+					<!--右边竖向导航条容器-->
+					<div id="rightNavigationBarContainer" class="col-md-3 col-sm-3 hidden-xs">
+						
+					</div>
+				</div>
+			</div>
+			
+			<!--右边空白容器	级别2-->
+			<div id="rightBlankContainer" class="col-md-1 hidden-sm hidden-xs ">
+				
+			</div><!--右边空白容器	级别2-->
+			
+		</div><!--最外层包裹容器	级别1-->
+	</body>
+</html>
